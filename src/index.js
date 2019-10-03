@@ -15,7 +15,7 @@ body {
       sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    background: url('https://i.imgur.com/7Wiy7sh.jpg') no-repeat center center fixed; 
+    background: url('https://i.imgur.com/7Wiy7sh.jpg') no-repeat center center; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;

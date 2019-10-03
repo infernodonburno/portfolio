@@ -6,20 +6,33 @@ import Image from '../components/Image'
 import TextBlock from '../components/TextBlock'
 import NavBar from '../components/NavBar'
 import TimelineStyle from '../components/Timeline'
+import chrisLogo from '../chrispurnell.jpg'
+
+
 
 
 const StyledAbout = styled.div`
-  height: 100vh;
+  height: 50vh;
   width: 100vw;
   display: flex;
   align-items: center;
   `
   const Container = styled.div`
   justify-content: center;
-  width: 100vw;
-  height: 50vh;
+  width: 100%;
+  height: 90%;
   
 `
+
+const holder = {
+    display: 'flex',
+    justifyContent: 'space-around'
+} 
+
+const imageStyle = {
+    borderRadius: '50%'
+}
+
 const About = props => {
     return (
         <React.Fragment>
@@ -29,8 +42,9 @@ const About = props => {
             <TimelineStyle>
             <div class="timeline">
                 <div class="container left">
-                   <div class="content">
+                   <div class="content" style={holder}>
                         <h3>Born in Columbia, MD</h3>
+                        <img src={chrisLogo} height='100px' width='100px' style= {imageStyle}/>
                     </div>
                 </div>
                     <div class="container right">

@@ -12,7 +12,7 @@ const Container = styled.div`
   flex-direction: column;
   align-items: center;
   width: 100vw;
-  height: 150vh;
+  height: 50vh;
   
 `
 const Blinking = styled.h1`
@@ -36,7 +36,7 @@ const Home = props => {
           <Header>
             <Blinking className = "blinking">Chris Purnell</Blinking>
           </Header>
-            <Image src= {require('../chrispurnell.jpg')}/>
+          {/*  <Image src= {require('../chrispurnell.jpg')}/>*/}
         </Container>
     </React.Fragment>
   )

@@ -3,7 +3,7 @@ import styled from 'styled-components'
 const Header = styled.h1`
   text-align: center;
   font-size: 30pt;
-  font-family: 'OCR A Std, monospace';
+  font-family: 'Andale Mono, monospace';
   text-color: white;
   .blinking{
     animation:blinkingText 2.5s infinite;
