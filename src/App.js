@@ -1,26 +1,24 @@
-import React from 'react';
+import  React from 'react';
+import { Route, Switch, Redirect } from 'react-router-dom'
 import chrisLogo from './chrispurnell.jpg'
 import './App.css';
+import { ParallaxProvider } from 'react-scroll-parallax'
 
-function App() {
+
+import Home from './containers/Home';
+import About from './containers/About';
+import Projects from './containers/Projects';
+
+
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={chrisLogo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <Switch>
+      <Route path='/' exact component={Home} />
+      <Route path='/about' exact component={About} />
+      <Route path='/projects' exact component={Projects} />
+      <Redirect to='/' />
+    </Switch>
+  )
 }
 
 export default App;
