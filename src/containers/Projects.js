@@ -1,8 +1,12 @@
 import React from 'react'
 import styled from 'styled-components'
 import ProjectBubbles from '../components/ProjectBubbles'
-
+import ImgMediaCard from '../components/ProjectCard'
+import ImgMediaCardDev from '../components/ProjectCardDev'
+import ImgMediaCardSpring from '../components/ProjectCardSpring'
 import NavBar from '../components/NavBar'
+
+
 
 
 const Container = styled.div`
@@ -24,7 +28,9 @@ const Projects = props => {
     <React.Fragment>
       <NavBar />
       <Container>
-      
+        <ImgMediaCard></ImgMediaCard>
+        <ImgMediaCardSpring></ImgMediaCardSpring>
+        <ImgMediaCardDev></ImgMediaCardDev>
       </Container>
     </React.Fragment>
   )

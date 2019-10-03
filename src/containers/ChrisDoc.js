@@ -19,7 +19,7 @@ const Container = styled.div`
 const formStyle = {
   display: 'flex',
   justifyContent: 'center',
-  height: '50vh',
+  height: '100vh',
   position: 'none'
 }
 
@@ -28,9 +28,7 @@ const ChrisDoc = props => {
     <React.Fragment>
       <NavBar />
         <Container>
-          <form>
           <iframe src = {chrisDoc} width='700' height='450' allowfullscreen webkitallowfullscreen style = {formStyle} ></iframe>
-          </form>
         </Container>
     </React.Fragment>
   )
