@@ -9,12 +9,13 @@ const StyledNavBar = styled.div`
 `
 const Cloud = styled.div`
 #cloud-background {
-	background-color: black ;
+	background-color: clear ;
 	z-index: 0;
 	padding-top: 0px;
 	padding-bottom: 5px;
 	display: flex;
-    justify-content: center;
+	justify-content: center;
+	
 }
 #cloud {
 	width: 250px; height: 100px;
@@ -104,6 +105,15 @@ const NavBar = props => {
         </div>
         </div>
         </Cloud>
+		<Cloud>
+        <div id = "cloud">
+        <div id="cloud-background">
+          <NavItem to='/resume' exact>
+            Resume
+          </NavItem>
+        </div>
+        </div>
+      </Cloud>
     </StyledNavBar>
   )
 }

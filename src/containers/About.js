@@ -12,7 +12,7 @@ import chrisLogo from '../chrispurnell.jpg'
 
 
 const StyledAbout = styled.div`
-  height: 50vh;
+  height: 100vh;
   width: 100vw;
   display: flex;
   align-items: center;
@@ -20,7 +20,7 @@ const StyledAbout = styled.div`
   const Container = styled.div`
   justify-content: center;
   width: 100%;
-  height: 90%;
+  height: 100%;
   
 `
 
