@@ -35,7 +35,9 @@ export default function ImgMediaCard() {
             Smart Share
           </Typography>
           <Typography variant="body2" color="textSecondary" component="p">
-            Created command line application using CLI. Users were able to download and upload files along with encrypting with a password.
+            Created command line application using CLI that interacted with a database via JDBC. 
+            Users were able to download and upload files along with encrypting with a password.
+
           </Typography>
         </CardContent>
       </CardActionArea>

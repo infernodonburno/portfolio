@@ -4,7 +4,7 @@ import NavBar from '../components/NavBar'
 import Header from '../components/Header'
 import Image from '../components/Image'
 import styled from 'styled-components'
-import chrisDoc from '../Chris Resume-converted.pdf'
+import chrisDoc from '../Chris Resume.pdf'
 
 
 const Container = styled.div`

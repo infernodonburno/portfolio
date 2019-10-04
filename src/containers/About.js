@@ -12,7 +12,7 @@ import chrisLogo from '../chrispurnell.jpg'
 
 
 const StyledAbout = styled.div`
-  height: 100vh;
+  height: 100%;
   width: 100vw;
   display: flex;
   align-items: center;
@@ -70,6 +70,13 @@ const About = props => {
                 <div class="container right">
                         <div class="content">
                             <h3>Tech901 to Cook Systems</h3>
+                    </div>
+                </div>
+                <div class="container left">
+                        <div class="content">
+                            <h3>FUN FACT</h3>
+                            <p>I spend my offtime gaming with my Fiancee who is an aspiring chef</p>
+                            <p>We also care to our two rescue cats Impa and Midna</p>
                     </div>
                 </div>
             </div>
